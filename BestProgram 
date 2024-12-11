@@ -1,0 +1,6 @@
+fun main() {
+    var Fimoz:String = readln() 
+    println(Fimoz) 
+
+
+}
