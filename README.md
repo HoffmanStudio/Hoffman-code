@@ -1,1 +1,2 @@
-# Hoffman-code
+fimoz = int(input())
+print(fimoz)
