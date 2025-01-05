@@ -34,4 +34,12 @@
         android:textSize="17dp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content"
+        android:text="На Главный Экран" />
+
 </LinearLayout>
