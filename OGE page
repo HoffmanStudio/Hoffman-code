@@ -39,4 +39,12 @@
         tools:layout_editor_absoluteX="89dp"
         tools:layout_editor_absoluteY="516dp" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="На Главный Экран"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="736dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
