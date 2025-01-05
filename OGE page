@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191321"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="281dp"
+        android:layout_height="314dp"
+        app:srcCompat="@drawable/photo_5397568453122057573_x"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Теория"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Практика"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
