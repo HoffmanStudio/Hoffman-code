@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191321"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="393dp"
+        android:layout_height="42dp"
+        android:layout_margin="40dp"
+        android:text="Константы"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:text="Выберите раздел:"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="393dp"
+        android:layout_height="42dp"
+        android:layout_margin="40dp"
+        android:text="Формулы"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="393dp"
+        android:layout_height="42dp"
+        android:layout_margin="40dp"
+        android:text="Похожие задачи"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="На Главный Экран"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
