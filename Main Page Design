@@ -10,34 +10,56 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyFormula"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="75dp"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/free_icon_physics_631560"
+        android:layout_gravity="center"
+        />
+
+    <TextView
         android:id="@+id/textView2"
-        android:layout_width="249dp"
+        android:layout_width="261dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="130dp"
+        android:layout_marginTop="64dp"
         android:layout_marginBottom="130dp"
-        android:fontFamily="@font/inter_extrabold"
+        android:gravity="center"
         android:text="Выберите Экзамен"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="27dp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:layout_gravity="center"
-        android:layout_marginTop="110dp"
-        android:textStyle="bold"
-        android:text="ОГЭ" />
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FF9800"
+        android:text="ОГЭ"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_height="75dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="@color/white"
         android:textStyle="bold"
-        android:text="ЕГЭ"
+        android:text="ЕГЭ" />
+
 
 </LinearLayout>
