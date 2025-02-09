@@ -1,0 +1,55 @@
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="492dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="284dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#FF9800"
+        android:text="Оптика"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="556dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:TextStyle="Bold"
+        android:text="Выберите раздел:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ImageView
+        android:layout_width="143dp"
+        android:layout_height="141dp"
+        android:layout_gravity="center"
+        android:background="@drawable/free_icon_physics_631560"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:TextStyle="Bold"
+        android:text="MyFormula"
+        android:textColor="@color/white"
+        android:textSize="70dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="27dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/Cross"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
