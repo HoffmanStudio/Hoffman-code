@@ -90,4 +90,12 @@
         tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="-2dp"
         tools:ignore="MissingConstraints" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="27dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/Cross"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout
